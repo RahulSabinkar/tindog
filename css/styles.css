@@ -66,16 +66,18 @@ p {
 /* Title Image */
 
 .title-image {
-  width: 60%;
+  position: absolute;
+  width: 20%;
   transform: rotate(25deg);
+  right: 25%;
 }
 
 /* Features Section*/
 
 #features {
   padding: 7% 15%;
-  text-align: center;
   background-color: white;
+  position: relative;
 }
 
 .features-icon {
@@ -89,6 +91,7 @@ p {
 
 .features-box {
   padding: 30px;
+  text-align: center;
 }
 
 /* Testimonials Section */
@@ -130,4 +133,20 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  padding: 7% 15% 2%;
+  text-align: center;
+  background-color: #FF4C68;
+  color: white;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: 1.5%;
 }

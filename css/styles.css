@@ -1,26 +1,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 1.5rem;
 }
 
 p {
@@ -28,8 +14,32 @@ p {
   font-weight: 600;
 }
 
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
 .container-fluid {
-  padding: 3% 14%;
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -55,15 +65,16 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
-  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 14%;
 }
 
 .download-btn {
   margin: 5% 3% 5% 0;
 }
-
-/* Title Image */
 
 .title-image {
   position: absolute;
@@ -75,8 +86,6 @@ p {
 /* Features Section*/
 
 #features {
-  padding: 7% 15%;
-  background-color: white;
   position: relative;
 }
 
@@ -91,15 +100,21 @@ p {
 
 .features-box {
   padding: 30px;
-  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 /* Testimonials Section */
 
 #testimonials {
-  text-align: center;
   background-color: #EF8172;
-  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -108,14 +123,10 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
+/* Press Section */
 
 #press {
   background-color: #EF8172;
-  color: white;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -128,7 +139,15 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -137,20 +156,7 @@ p {
 
 /* CTA Section */
 
-#cta {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #FF4C68;
-  color: white;
-}
-
 /* Footer Section */
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #fff;
-}
 
 .footer-icons {
   margin: 20px 10px;
